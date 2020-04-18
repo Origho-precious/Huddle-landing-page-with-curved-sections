@@ -1,0 +1,166 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Poppins", sans-serif; }
+
+.wrapper {
+  max-width: 85%;
+  margin: auto; }
+
+.showcase-btn {
+  background-color: #ff52bf;
+  color: #FFF;
+  font-weight: 700; }
+  .showcase-btn:hover {
+    color: #FFF;
+    opacity: 0.9; }
+
+.form-btn {
+  background-color: #ff52bf;
+  color: #FFF;
+  font-weight: 700; }
+  .form-btn:hover {
+    color: #FFF;
+    opacity: 0.9; }
+
+body {
+  font-family: var(--Body-font);
+  line-height: 2; }
+  body main nav {
+    margin: 2rem 0 8rem; }
+    body main nav .nav-btn {
+      border: 2px solid #ff52bf;
+      color: #ff52bf; }
+      body main nav .nav-btn:hover {
+        background-color: #ff52bf;
+        color: #FFF; }
+  body main header#showcase {
+    max-width: 90%;
+    margin: 10rem auto 0; }
+    body main header#showcase .showcase-text {
+      max-width: 80%;
+      margin: auto; }
+      body main header#showcase .showcase-text h1 {
+        font-size: 2.8rem;
+        font-weight: 700;
+        margin-bottom: 1rem; }
+      body main header#showcase .showcase-text p {
+        width: 60%;
+        margin: 0 auto; }
+    body main header#showcase .showcase-img {
+      margin-top: 8rem; }
+      body main header#showcase .showcase-img img {
+        display: block;
+        max-width: 90%;
+        margin: auto; }
+  body main #stats {
+    margin: 10rem 0; }
+    body main #stats .row img {
+      margin-left: -10rem;
+      margin-bottom: 1rem; }
+    body main #stats .row h1 {
+      font-size: 5rem; }
+  body #features {
+    margin: 5rem 0; }
+    body #features .wrapper .row {
+      margin: 5rem 0;
+      padding: 6rem 0 5rem; }
+      body #features .wrapper .row .feature-text {
+        margin-right: 3rem; }
+        body #features .wrapper .row .feature-text h2 {
+          font-size: 2.2rem; }
+  body #cta {
+    margin: 10rem 0; }
+  body footer {
+    background: #00252e;
+    color: #FFF;
+    padding: 10rem 0 1rem; }
+    body footer .socials a {
+      color: #FFF;
+      margin: 0 10px; }
+      body footer .socials a:hover {
+        color: #ff52bf; }
+    body footer .attribution {
+      margin-top: 5rem;
+      margin-bottom: 2rem;
+      font-size: 13px;
+      text-align: center; }
+    body footer .attribution a {
+      color: #ff52bf; }
+      body footer .attribution a:hover {
+        text-decoration-color: #FFF; }
+
+@media (max-width: 768px) {
+  .showcase-btn {
+    max-width: 80%;
+    margin: auto;
+    font-weight: normal;
+    font-size: 16px; }
+  .form-btn {
+    max-width: 50%;
+    margin-top: 1rem;
+    font-weight: normal;
+    font-size: 16px; }
+  body {
+    line-height: 1.5; }
+    body main nav .nav-btn {
+      width: 60%;
+      margin: auto; }
+    body main header#showcase {
+      max-width: 90%;
+      margin: 8rem auto 0; }
+      body main header#showcase .showcase-text {
+        max-width: 100%;
+        margin: auto; }
+        body main header#showcase .showcase-text h1 {
+          font-size: 1.9rem; }
+        body main header#showcase .showcase-text p {
+          width: 100%;
+          margin: 0 auto; }
+    body main #stats {
+      margin: 7rem 0 0; }
+      body main #stats .row > div {
+        margin: 3rem 0; }
+      body main #stats .row img {
+        margin-left: 0;
+        margin-bottom: 10px; }
+      body main #stats .row h1 {
+        font-size: 4rem; }
+    body #features {
+      margin: 3rem 0; }
+      body #features .wrapper .row {
+        margin: 2rem 0;
+        padding: 5rem 0 5rem; }
+        body #features .wrapper .row .feature-text {
+          margin-right: 0;
+          margin-top: 4rem;
+          text-align: center; }
+          body #features .wrapper .row .feature-text h2 {
+            font-size: 1.6rem; }
+          body #features .wrapper .row .feature-text p {
+            font-size: 0.9rem; }
+    body #cta {
+      margin: 10rem 0; }
+      body #cta h1 {
+        font-size: 1.8rem; }
+    body footer {
+      background: #00252e;
+      color: #FFF;
+      padding: 10rem 0 1rem; }
+      body footer .socials a {
+        color: #FFF;
+        margin: 0 10px; }
+        body footer .socials a:hover {
+          color: #ff52bf; }
+      body footer .attribution {
+        margin-top: 5rem;
+        margin-bottom: 2rem;
+        font-size: 13px;
+        text-align: center; }
+      body footer .attribution a {
+        color: #ff52bf; }
+        body footer .attribution a:hover {
+          text-decoration-color: #FFF; } }
